@@ -1,0 +1,22 @@
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #e5e2ff;
+
+            }
+
+            h1{
+                color:#262436;
+                background-color: #e4e0ff;
+                padding: 1.5rem;
+            }
+
+            p{
+                margin: 1.5rem;
+            }
+
+            img{
+                float: right;
+                border: 2px #ffffff solid; /**controls border width color, line style **/
+                margin: 0.65rem;
+                max-width: 100%;
+            }
