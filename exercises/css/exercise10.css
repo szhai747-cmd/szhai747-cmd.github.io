@@ -1,0 +1,55 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 0px;
+}
+
+h1{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li{
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
+}
+
+nav a{
+    text-decoration: one;
+    color: lightgray;
+    padding: 25px;
+}
+
+nav a:hover{
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: black;
+}
+
+footer address{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
