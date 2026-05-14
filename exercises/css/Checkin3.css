@@ -1,0 +1,96 @@
+.wrapper1{
+    border: 3px solid black; 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    min-height: 50vh;
+}
+
+.wrapper2{
+    border: 3px solid black; 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 50vh;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 0px;
+}
+
+header{
+    background-color: azure;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.topleft{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.topright{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.btm1{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.btm2{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.btm3{
+    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.topright img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btm2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btm3 img {
+  float: right; 
+ width: 30%;
+  height: 30%;
+  object-fit: cover;
+}

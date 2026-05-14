@@ -1,0 +1,37 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e0d5ff;
+}
+
+p{
+    line-height: 2;
+    color: #3e0707;
+    padding: 5%;
+}
+
+.alumni-sans-pinstripe-regular {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+}
+
+img{
+    border: 2px #ffffff solid; /**controls border width color, line style **/
+    margin: 0.65rem;
+    max-width: 100%;
+}
+
+a:hover{
+    color:rgb(141, 0, 124);
+}
+
+a:visited{
+    color:rgb(122, 3, 3);
+}
